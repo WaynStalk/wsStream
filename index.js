@@ -1,9 +1,7 @@
-const Discord = require("discord.js"
+const Discord = require('discord.js');
+const client = new Discord.Client();
 
-
-
-
-
+client.login"process.env.TOKEN"
 
 const activities_list = [
     "𝙃𝙚𝙘𝙩𝙤𝙣𝙞𝙖", 
