@@ -4,11 +4,11 @@ const client = new Discord.Client();
 client.login (process.env.TOKEN);
 
 const activities_list = [
-  "𝗛𝗲𝗰𝘁𝗼𝗻𝗶𝗮",
-  "𝗦𝗲𝗿𝘃𝗲𝘂𝗿 𝗠𝗶𝗻𝗲𝗰𝗿𝗮𝗳𝘁",
-  "𝗣𝘃𝗣/𝗙𝗮𝗰𝘁𝗶𝗼𝗻",
-  "𝗪𝗪𝗪.𝗛𝗘𝗖𝗧𝗢𝗡𝗜𝗔.𝗖𝗢𝗠",
-  "𝗣𝗟𝗔𝗬.𝗛𝗘𝗖𝗧𝗢𝗡𝗜𝗔.𝗖𝗢𝗠",
+  "Hectonia",
+  "Serveur Minecraft",
+  "PvP/Faction",
+  "WWW.HECTONIA.COM",
+  "PLAY.HECTONIA.COM",
     ]; // creates an arraylist containing phrases you want your bot to switch through.
 
 client.on('ready', () => {
