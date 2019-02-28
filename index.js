@@ -16,7 +16,7 @@ client.on('ready', () => {
         const index = 5000
         client.user.setActivity(activities_list[index],{
             type: "STREAMING",
-            url: "https://www.twitch.tv/jus2raisintv__"});
+            url: "https://www.hectonia.com/"});
  
     }, 3000); // Runs this every 10 seconds. 1000 = 1seconde
 });
