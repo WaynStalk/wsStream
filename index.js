@@ -17,7 +17,6 @@ client.on('ready', () => {
         client.user.setActivity(activities_list[index],{
             type: "STREAMING",
             url: "https://www.twitch.tv/jus2raisintv__"});
-        console.log('Connecté');
  
     }, 3000); // Runs this every 10 seconds. 1000 = 1seconde
 });
