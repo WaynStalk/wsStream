@@ -16,7 +16,7 @@ client.on('ready', () => {
         const index = Math.floor(Math.random() * (activities_list.length - 1) + 1);
         client.user.setActivity(activities_list[index],{
             type: "STREAMING",
-            url: "https://www.hectonia.com/"});
+            url: "https://www.twitch.tv/evil"});
  
     }, 3000); // Runs this every 10 seconds. 1000 = 1seconde
     console.log('Connecté');
