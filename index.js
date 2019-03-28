@@ -4,11 +4,9 @@ const client = new Discord.Client();
 client.login (process.env.TOKEN);
 
 const activities_list = [
-  "Stalk - Shop",
-  "Serveur Discord",
-  "Comptes Netlfix",
-  "Comptes Spotify",
-  "Comptes Premium",
+  "𝓦.𝓓.𝓢",
+  "𝑨 𝑫𝑰𝑺𝑪𝑶𝑹𝑫 𝑻𝑬𝑨𝑴",
+  "𝑶𝑭 𝑹𝑨𝑳𝑶𝑼𝑭𝑺",
     ]; // creates an arraylist containing phrases you want your bot to switch through.
 
 client.on('ready', () => {
