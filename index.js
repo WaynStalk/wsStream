@@ -4,9 +4,9 @@ const client = new Discord.Client();
 client.login (process.env.TOKEN);
 
 const activities_list = [
-  "𝙺𝚘𝚋𝚊 𝙻𝚊𝙳",
-  "𝙺𝚘𝚋𝚊 𝙻𝚊𝙳",
-  "𝙺𝚘𝚋𝚊 𝙻𝚊𝙳",
+  "Koba LaD",
+  "Koba LaD",
+  "Koba LaD",
     ]; // creates an arraylist containing phrases you want your bot to switch through.
 
 client.on('ready', () => {
